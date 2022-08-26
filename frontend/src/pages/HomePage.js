@@ -7,7 +7,7 @@ const HomePage = (props) => {
 
 
 
-        <main className="holder">
+        <main className="inicio">
 
 
 
@@ -18,87 +18,90 @@ const HomePage = (props) => {
             <div className='seccion-cursos'>
 
                 <div className="filtros">
+                    <div className='titular-box'>
+                    <h3 className="filtros-titular">Filtros  📍​​​</h3>
+                    </div>
 
-                    <h3 style={{ fontSize: '30px', color: 'black' }} > <strong>Filtrar por:</strong></h3>
                     <div className="titulos" style={{ marginBottom: "25px" }}>
                         <h3 style={{ marginBottom: "5px" }}>Modalidad</h3>
-                        <div>
+
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label className="" style={{ backgroundColor: "#fff", color: "#000" }}>Online</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Online</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Presencial</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Presencial</h6>
                         </div>
                     </div>
 
 
                     <div className="titulos" style={{ marginBottom: "25px" }}>
                         <h3 style={{ marginBottom: '5px' }}>Área académica</h3>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Tecnología</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Tecnología</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Negocios</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Negocios</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Psicología</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Psicología</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Derecho</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Derecho</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Ciencias Sociales</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Ciencias Sociales</h6>
                         </div>
                     </div>
 
                     <div className="titulos" style={{ marginBottom: '25px' }}>
                         <h3 style={{ marginBottom: "5px" }}>Tipo</h3>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Curso</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Curso</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Programa</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Programa</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Programa Ejecutivo</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Programa Ejecutivo</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Diplomatura</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Diplomatura</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Programa de Posgrado</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Programa de Posgrado</h6>
                         </div>
                     </div>
 
 
                     <div className="titulos" style={{ marginBottom: "25px" }}>
                         <h3 style={{ marginBottom: "5px" }}>Duración</h3>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>Hasta 1 mes</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>Hasta 1 mes</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>1-3 meses</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>1-3 meses</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>3-6 meses</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>3-6 meses</h6>
                         </div>
-                        <div>
+                        <div className="contenedor-filtros">
                             <input className="cajita" type="checkbox" />
-                            <label style={{ backgroundColor: "#fff", color: "#000" }}>+ 6 meses</label>
+                            <h6 className="titulo-cajita" style={{ backgroundColor: "#fff", color: "#000" }}>+ 6 meses</h6>
                         </div>
                     </div>
 
@@ -106,10 +109,11 @@ const HomePage = (props) => {
 
                 </div>
 
+
                 <div className="todos-cursos">
 
 
-                    <div className="curso">
+                    <a href="https://teachable.com/" target="_BLANK" rel="noreferrer" ><div className="curso" >
 
                         <ul className="modalidad-cursos">
                             <li><i ></i> 📆​ 06/09</li>
@@ -131,7 +135,8 @@ const HomePage = (props) => {
                                 una metáfora del mundo real, pero sin tener necesariamente sus limitaciones.</p>
                         </div>
                     </div>
-                    <div className="curso">
+                    </a>
+                    <a href="https://teachable.com/" target="_BLANK" rel="noreferrer" ><div className="curso">
                         <ul className="modalidad-cursos">
                             <li><i></i> 📆​ 06/09</li>
                             <li><i></i> ​🕗​ 1 mes</li>
@@ -145,7 +150,8 @@ const HomePage = (props) => {
                                 ayudan a mejorar la calidad de vida de los individuos.</p>
                         </div>
                     </div>
-                    <div className="curso">
+                    </a>
+                    <a href="https://teachable.com/" target="_BLANK" rel="noreferrer" > <div className="curso">
                         <ul className="modalidad-cursos">
                             <li><i></i> 📆​ 06/09</li>
                             <li><i></i> ​🕗​ 1 mes</li>
@@ -159,7 +165,8 @@ const HomePage = (props) => {
                                 principalmente, tomar decisiones es el objetivo de la ciencia de datos.</p>
                         </div>
                     </div>
-                    <div className="curso">
+                    </a>
+                    <a href="https://teachable.com/" target="_BLANK" rel="noreferrer" > <div className="curso">
                         <ul className="modalidad-cursos">
                             <li><i></i> 📆​ 06/09</li>
                             <li><i></i> ​🕗​ 1 mes</li>
@@ -175,7 +182,9 @@ const HomePage = (props) => {
                         </div>
 
 
+
                     </div>
+                    </a>
 
 
                 </div>
@@ -205,7 +214,7 @@ const HomePage = (props) => {
 
 
 
-        </main>
+        </main >
 
 
 

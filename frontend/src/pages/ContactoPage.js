@@ -46,33 +46,33 @@ const ContactoPage = (props) => {
 
     return (
         <div>
-            <main className="holder contacto">
+            <main className="contacto-form">
 
-               
 
-                <div className="form">
+
+                <div className="formu">
                     <h2 style={{ color: '#fff', fontWeight: '100', marginLeft: '20px', fontSize: '30px' }}>Contactanos!</h2>
 
                     <form action="/contacto" method="post" className="formulario" onSubmit={handleSubmit}>
 
-                        <div className="input-group">
-                            <input required="" type="text" autoComplete="off" className="input" name="nombre" value={formData.nombre} onChange={handleChange} />
-                            <label className="user-label">Nombre</label>
+                        <div className="input-grup">
+                            <input required="" type="text" autoComplete="off" className="aporte" name="nombre" value={formData.nombre} onChange={handleChange} />
+                            <label className="userlabel">Nombre</label>
                         </div>
 
-                        <div className="input-group">
-                            <input required="" type="text" autoComplete="off" className="input" name="email" value={formData.email} onChange={handleChange} />
-                            <label className="user-label" htmlFor="email">Email</label>
+                        <div className="input-grup">
+                            <input required="" type="text" autoComplete="off" className="aporte" name="email" value={formData.email} onChange={handleChange} />
+                            <label className="userlabel" htmlFor="email">Email</label>
                         </div>
 
-                        <div className="input-group">
-                            <input required="" type="text" autoComplete="off" className="input" name="telefono" value={formData.telefono} onChange={handleChange} />
-                            <label className="user-label">Teléfono</label>
+                        <div className="input-grup">
+                            <input required="" type="text" autoComplete="off" className="aporte" name="telefono" value={formData.telefono} onChange={handleChange} />
+                            <label className="userlabel">Teléfono</label>
                         </div>
 
-                        <div className="input-group">
-                            <input required="" type="text" autoComplete="off" className="input mensaje" name="mensaje" value={formData.mensaje} onChange={handleChange} />
-                            <label className="user-label">Mensaje</label>
+                        <div className="input-grup">
+                            <input required="" type="text" autoComplete="off" className="aporte mensaje" name="mensaje" value={formData.mensaje} onChange={handleChange} />
+                            <label className="userlabel">Mensaje</label>
                         </div>
 
                         <button className="cssbuttons-io-button" style={{ cursor: 'pointer' }}> Enviar
@@ -89,8 +89,8 @@ const ContactoPage = (props) => {
 
                     </form>
 
-                    {sending ? <p style={{color:'#fff', marginLeft: '50px'}}>Enviando 🚀​​</p> : null}
-                {msg ? <p style={{color:'#fff', marginLeft: '50px'}}>{msg}✅​</p> : null}
+                    {sending ? <p style={{ color: '#fff', marginLeft: '50px' }}>Enviando 🚀​​</p> : null}
+                    {msg ? <p style={{ color: '#fff', marginLeft: '50px' }}>{msg}✅​</p> : null}
 
                 </div>
 

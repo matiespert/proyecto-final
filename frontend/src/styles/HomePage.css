@@ -1,24 +1,65 @@
 
 /* inicio del home */
 
+.inicio {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .seccion-cursos{
     display: flex;
     clear: both;
     justify-content: space-between;
     align-items: center;
-    
+    gap:200px;
     flex-wrap: wrap ;
     flex-direction: row;
+    margin-bottom: 130px;
 }
+
+.filtros {
+    display: inline-block;
+    margin-top: -500px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+
+ .contenedor-filtros {
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+    
+    
+
+ }
+
+ h6 {
+    margin-top: 9px;
+    font-size: 15px;
+ }
+
+ 
+ .filtros .titulos input {
+        
+    cursor: pointer;   
+    margin-right: 5px;
+}
+
+
+
 
 
 .curso:hover {
 
     cursor: pointer;
-    
-    
-        
-    }
+    background-color: #9c2e38;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
     
     
     div img.portada{
@@ -27,17 +68,37 @@
         height: 380px;
         object-fit: cover;
         
+
+        
+        
+    }
+
+    .titular-box {
+        /* height: 50px; */
+        margin-left:15px ;
+    }
+
+    .filtros-titular {
+        width: 150px;
+       
+        font-size: 25px;
+        color: #fff;
+        background-color: #141313;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        border-radius: 10px;
+        padding-left: 25px;
+        margin-bottom: 20px;
+        font-weight: 800;
         
     }
     
     
     
     
-    
-    .filtros h3 {
+    .titulos h3 {
     font-weight: 500;
     font-size: 25px;
-    line-height: 25px;
+    /* line-height: 25px; */
     text-transform: inherit;
     color: #9c2e38;
     
@@ -46,20 +107,12 @@
     
     
     
-    .filtros .titulos input {
-        margin-top: 10px; 
-        cursor: pointer;   
-    }
-    
     div .curso img {
         width: 200px;
         height: 150px;
     }
     
-    /* div .curso:hover{
-        border: #006fff 0.2em solid;
-    } */
-
+   
     .todos-cursos{
         max-width: 500px;
     }
@@ -77,6 +130,7 @@
         height: 50%;
         float: right;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        
     }
     
     .curso .info h4 {
@@ -100,6 +154,7 @@
         display: block;
         max-width: 225px;
         object-fit: cover;
+        margin-bottom: 10px;
     
     }
     
@@ -108,10 +163,10 @@
        background-color: #9c2e38;
        color: white;
        border-style: none;
-       width: 130px;
+       width: 120px;
        height: 30px;
        border-radius: 5px;
-    
+        margin-left: 30px;
     }
     
     .boton-borrar:hover {
@@ -127,6 +182,7 @@
         margin-right: 40px;
         line-height: 35px;
         font-size: 15px;
+        margin-top: 10px;
         
     }
     

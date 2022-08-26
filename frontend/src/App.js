@@ -27,7 +27,7 @@ function App() {
           <Route path='nosotros' element={<NosotrosPage />} />
           <Route path='contacto' element={<ContactoPage />} />
           <Route path='novedades' element={<NovedadesPage />} />
-          <Route path='blog' element={<BlogPage />} />
+          {/* <Route path='blog' element={<BlogPage />} /> */}
         </Routes>
       </BrowserRouter>
 

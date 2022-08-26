@@ -14,13 +14,13 @@ const Footer = (props) => {
 
                     <div className="social-media">
 
-                        <a href="./" className="social-media-icon">
+                        <a href="https://www.facebook.com/" target="_BLANK" rel="noreferrer" className="social-media-icon">
                             <i className="bx bxl-facebook"></i>
                         </a>
-                        <a href="./" className="social-media-icon">
+                        <a href="https://twitter.com/?lang=es" target="_BLANK" rel="noreferrer" className="social-media-icon">
                             <i className="bx bxl-twitter"></i>
                         </a>
-                        <a href="./" className="social-media-icon">
+                        <a href="https://www.instagram.com/" target="_BLANK" rel="noreferrer" className="social-media-icon">
                             <i className="bx bxl-instagram"></i>
                         </a>
 
