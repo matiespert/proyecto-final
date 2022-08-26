@@ -2,13 +2,13 @@ var express = require('express');
 var router = express.Router();
 var novedadesModel = require('./../models/novedadesModel');
 var cloudinary = require('cloudinary').v2;
-var nodemailer = require('nodemailer')
+var nodemailer = require('nodemailer');
 
 
 router.get('/novedades', async function (req,res,next){
     let novedades = await novedadesModel.getNovedades();
 
-    novedades = novedades.map (novedades => {
+    novedades = novedades.map(novedades => {
         if (novedades.img_id) {
             const imagen = cloudinary.url(novedades.img_id, {
                 width: 960,
@@ -22,7 +22,7 @@ router.get('/novedades', async function (req,res,next){
         } else {
             return {
                 ...novedades,
-                imagen:''
+                imagen: ''
             }
         }
     });
@@ -33,7 +33,7 @@ router.get('/novedades', async function (req,res,next){
 router.post('/contacto', async (req, res)=> {
     const mail = {
         to:"matias.espert.laciar@gmail.com",
-        subjetc: 'Contacto Web',
+        subject: 'Contacto Web',
         html: `${req.body.nombre} se contacto a traves de la web y quiere mas información a este correo: ${req.body.email} <br> Además, hizo el siguiente comentario: ${req.body.mensaje}<br> Su tel es: ${req.body.telefono}`
     }
 

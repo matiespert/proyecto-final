@@ -6,22 +6,22 @@ const Footer = (props) => {
         <div>
             <footer className="contacto-footer">
 
-                <div class="footer-content">
-                    <div class="contact-us">
-                        <h2 class="brand">Matt Design</h2>
+                <div className="footer-content">
+                    <div className="contact-us">
+                        <h2 className="brand">Matt Design</h2>
                         <p>Academia al alcance del mundo</p>
                     </div>
 
-                    <div class="social-media">
+                    <div className="social-media">
 
-                        <a href="./" class="social-media-icon">
-                            <i class="bx bxl-facebook"></i>
+                        <a href="./" className="social-media-icon">
+                            <i className="bx bxl-facebook"></i>
                         </a>
-                        <a href="./" class="social-media-icon">
-                            <i class="bx bxl-twitter"></i>
+                        <a href="./" className="social-media-icon">
+                            <i className="bx bxl-twitter"></i>
                         </a>
-                        <a href="./" class="social-media-icon">
-                            <i class="bx bxl-instagram"></i>
+                        <a href="./" className="social-media-icon">
+                            <i className="bx bxl-instagram"></i>
                         </a>
 
                     </div>

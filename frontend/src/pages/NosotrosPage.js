@@ -4,16 +4,16 @@ import '../styles/NosotrosPage.css'
 const NosotrosPage = (props) => {
     return (
         <div>    
-            <main class="holder">
+            <main className="holder">
 
 
-        <div class="historia">
+        <div className="historia">
 
 
 
-            <div class="historias">
+            <div className="historias">
                 <img src="img/nosotros/oficina1.jpg" alt=""/>
-                <div class="texto-historias">
+                <div className="texto-historias">
                     <h2><strong> Historia </strong> </h2>
                     <p>Nacimos en 2022 con el propósito de transformar la vida de las personas a través de la educación
                         y acelerar la digitalización de empresas y negocios.</p>
@@ -21,9 +21,9 @@ const NosotrosPage = (props) => {
 
             </div>
 
-            <div class="historias">
+            <div className="historias">
                 <img src="img/nosotros/oficina2.jpg" alt=""/>
-                <div class="texto-historias derecha">
+                <div className="texto-historias derecha">
                     <h2> <strong>Nuestro Presente</strong> </h2>
                     <p>Ofrecemos formación 100% remota en programación, experiencia del usuario, datos y marketing
                         digital a
@@ -33,9 +33,9 @@ const NosotrosPage = (props) => {
 
             </div>
 
-            <div class="historias">
+            <div className="historias">
                 <img src="img/nosotros/oficina3.jpg" alt=""/>
-                <div class="texto-historias">
+                <div className="texto-historias">
                     <h2> <strong>Nuestro futuro</strong> </h2>
                     <p>Nos encontramos actualmente en Brasil, Argentina, Chile, Colombia, México, Perú y Uruguay, y
                         planeamos expandirnos a nuevos países de Latinoamérica.</p>
@@ -43,9 +43,9 @@ const NosotrosPage = (props) => {
 
             </div>
 
-            <div class="historias ">
+            <div className="historias ">
                 <img src="img/nosotros/oficina4.jpg" alt=""/>
-                <div class="texto-historias derecha">
+                <div className="texto-historias derecha">
                     <h2> <strong>Objetivo</strong> </h2>
                     <p>Juntos ideamos las herramientas que permiten hallar respuestas, cultivamos el espacio para
                         imaginar nuevos rumbos y generamos el conocimiento necesario para crear un nuevo futuro.</p>
@@ -59,11 +59,11 @@ const NosotrosPage = (props) => {
 
 
 
-        <div class="staff">
-            <h2 class="quienes"><strong> ¿Quienes Somos? </strong> </h2>
+        <div className="staff">
+            <h2 className="quienes"><strong> ¿Quienes Somos? </strong> </h2>
 
-            <div class="personas">
-                <div class="persona">
+            <div className="personas">
+                <div className="persona">
                     <img src="img/nosotros/matias.jpg" alt=""/>
 
                     <h5>Matias Espert</h5>
@@ -73,7 +73,7 @@ const NosotrosPage = (props) => {
                         autem, officiis sint iusto eveniet dolorum voluptates consequatur blanditiis, exercitationem sit
                         voluptas sed ad dicta facilis cumque.</p>
                 </div>
-                <div class="persona">
+                <div className="persona">
                     <img src="img/nosotros/francisco.jpg" alt=""/>
 
                     <h5>Francisco Garcia</h5>
@@ -83,7 +83,7 @@ const NosotrosPage = (props) => {
                         autem, officiis sint iusto eveniet dolorum voluptates consequatur blanditiis, exercitationem sit
                         voluptas sed ad dicta facilis cumque.</p>
                 </div>
-                <div class="persona">
+                <div className="persona">
                     <img src="img/nosotros/facundo.jpg" alt=""/>
 
                     <h5>Facundo Garcia</h5>
@@ -93,7 +93,7 @@ const NosotrosPage = (props) => {
                         autem, officiis sint iusto eveniet dolorum voluptates consequatur blanditiis, exercitationem sit
                         voluptas sed ad dicta facilis cumque.</p>
                 </div>
-                <div class="persona">
+                <div className="persona">
                     <img src="img/nosotros/mauro.jpg" alt=""/>
 
                     <h5>Mauro Monti</h5>
@@ -103,7 +103,7 @@ const NosotrosPage = (props) => {
                         autem, officiis sint iusto eveniet dolorum voluptates consequatur blanditiis, exercitationem sit
                         voluptas sed ad dicta facilis cumque.</p>
                 </div>
-                <div class="persona">
+                <div className="persona">
                     <img src="img/nosotros/claudia.jpg" alt=""/>
 
                     <h5>Claudia Oliu</h5>
