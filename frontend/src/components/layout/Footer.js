@@ -8,7 +8,7 @@ const Footer = (props) => {
 
                 <div className="footer-content">
                     <div className="contact-us">
-                        <h2 className="brand">Matt Design</h2>
+                        <h2 className="brand">Mathias Design</h2>
                         <p>Academia al alcance del mundo</p>
                     </div>
 
