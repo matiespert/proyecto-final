@@ -2,6 +2,20 @@
 
 /* prueba de formulario */
 
+.imagen-binoculares{
+    /* height: 362px; */
+    
+}
+
+.datos {
+    margin-bottom: 0 auto;
+}
+
+.formulario {
+    /* padding: 20px;
+    width: 400px; */
+}
+
 .contacto-form{
     background-color: #212121;
     max-width: 960px;
@@ -9,15 +23,16 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
-    padding: 30px;
+    /* padding: 30px; */
     margin-bottom: 50px;
+    margin-top: 50px;
     
 }
 
 .input-grup {
     position: relative;
     margin: 15px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 
     
    }
@@ -26,14 +41,26 @@
     /* border-right:solid 1px #fff; */
     /* margin-left: 50px;
     margin-right: 50px; */
+    /* margin-right: -90px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+
+   .formu h2{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
    }
 
    
    .aporte {
     width: 200px;
-    height: 18px;
+    height: 50px;
     border: solid 1.5px #9e9e9e;
-    border-radius: 1rem;
+    border-radius: 50px;
     background: none;
     padding: 1rem;
     font-size: 1rem;
@@ -59,25 +86,32 @@
    .aporte:focus ~ label, input:valid ~ label {
     transform: translateY(-50%) scale(0.8);
     background-color: #212121;
+
     padding: 0.2em;
     color: #fff;
    }
 
 
+   .input-grup textarea {
+    overflow: hidden;
+    resize: none;
+   }
+
 /* boton */
 
 
 .cssbuttons-io-button {
+    
     background: #fff;
     color: #141313;
     width: 120px;
-    margin-left: 130px;
+    margin-left: 100px;
     margin-bottom: 15px;
     margin-top: 15px;
     padding: 0.35em;
     padding-left: 1.2em;
     font-size: 17px;
-    font-weight: 100;
+    font-weight: lighter;
     border-radius: 0.9em;
     border: none;
     letter-spacing: 0.05em;

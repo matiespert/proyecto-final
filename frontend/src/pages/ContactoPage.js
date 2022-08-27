@@ -48,10 +48,25 @@ const ContactoPage = (props) => {
         <div>
             <main className="contacto-form">
 
+            <div className="datos">
+                <img src='img/computadora.png' className='imagen-binoculares'></img>
+                    {/* <h2 style={{ color: '#fff', fontSize: '30px', fontWeight: '100' }}>Otras vias de comunicacion</h2>
+
+
+                    <ul className="lista-contacto">
+                        <li><i className='bx bxs-phone-call  contact' style={{ color: '#bb4b54' }}></i> 3518088128</li>
+                        <li><i className='bx bxs-envelope contact' style={{ color: '#bb4b54' }}></i> @worldacademy.com.ar</li>
+                        <li> <i className='bx bxl-facebook-circle contact' style={{ color: '#bb4b54' }}></i> World Academy</li>
+                        <li><i className='bx bxl-instagram contact' style={{ color: '#bb4b54' }}></i> @world.academy</li>
+                        <li><i className='bx bxl-twitter contact' style={{ color: '#bb4b54' }}></i> @world_academy</li>
+                    </ul> */}
+                </div>
+
 
 
                 <div className="formu">
-                    <h2 style={{ color: '#fff', fontWeight: '100', marginLeft: '20px', fontSize: '30px' }}>Contactanos!</h2>
+
+                    <h2 style={{ color: '#fff', fontWeight: 'bold', fontSize: '55px' }}>¡Hablemos!</h2>
 
                     <form action="/contacto" method="post" className="formulario" onSubmit={handleSubmit}>
 
@@ -89,23 +104,12 @@ const ContactoPage = (props) => {
 
                     </form>
 
-                    {sending ? <p style={{ color: '#fff', marginLeft: '50px' }}>Enviando 🚀​​</p> : null}
-                    {msg ? <p style={{ color: '#fff', marginLeft: '50px' }}>{msg}✅​</p> : null}
+                    {sending ? <p style={{ color: '#fff', marginLeft: '50px', marginTop: '10px' }}>Enviando 🚀​​</p> : null}
+                    {msg ? <p style={{ color: '#fff', marginLeft: '50px', marginTop: '10px' }}>{msg}✅​</p> : null}
 
                 </div>
 
-                <div className="datos">
-                    <h2 style={{ color: '#fff', fontSize: '30px', fontWeight: '100' }}>Otras vias de comunicacion</h2>
-
-
-                    <ul className="lista-contacto">
-                        <li><i className='bx bxs-phone-call  contact' style={{ color: '#bb4b54' }}></i> 3518088128</li>
-                        <li><i className='bx bxs-envelope contact' style={{ color: '#bb4b54' }}></i> @worldacademy.com.ar</li>
-                        <li> <i className='bx bxl-facebook-circle contact' style={{ color: '#bb4b54' }}></i> World Academy</li>
-                        <li><i className='bx bxl-instagram contact' style={{ color: '#bb4b54' }}></i> @world.academy</li>
-                        <li><i className='bx bxl-twitter contact' style={{ color: '#bb4b54' }}></i> @world_academy</li>
-                    </ul>
-                </div>
+               
 
             </main>
         </div>
