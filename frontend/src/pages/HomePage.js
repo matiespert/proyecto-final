@@ -19,7 +19,7 @@ const HomePage = (props) => {
 
                 <div className="filtros">
                     <div className='titular-box'>
-                    <h3 className="filtros-titular">Filtros  📍​​​</h3>
+                    <h3 className="filtros-titular">Filtrar por:​​​</h3>
                     </div>
 
                     <div className="titulos" style={{ marginBottom: "25px" }}>
@@ -185,7 +185,7 @@ const HomePage = (props) => {
 
                     </div>
                     </a>
-
+                    
 
                 </div>
 

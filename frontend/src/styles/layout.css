@@ -1,8 +1,12 @@
 /* inicio header */
 
+
+
+
 header {
     background-color: #9c2e38;
     padding: 16px 0;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
    
     
 }
@@ -45,6 +49,8 @@ header h1 {
 nav {
     background-color: #271d1d;
     margin-bottom: 20px;
+    
+    
 }
 
 
@@ -60,6 +66,7 @@ nav .hamburger {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+  
   
 }
 
@@ -78,6 +85,7 @@ nav .holder-nav {
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
     transition: transform .3s ease-in-out;
     transform: translate(110%);
+    z-index: 1;
 }
 
 nav .spread {
@@ -107,14 +115,25 @@ nav ul li a {
     display: block;
     text-align: center;
     font-size: 20px;
+    transition: 0.3s;
     
    
 }
 
+.lista-menu:hover {
+    
+}
+
+
+
 
 nav ul li a:hover {
     color: #771921;
-    border-bottom: #771921 solid 2px;
+    /* border-bottom: #771921 solid 2px; */
+    font-size: 25px;
+    transition: 0.3s;
+    
+    
       
     
     

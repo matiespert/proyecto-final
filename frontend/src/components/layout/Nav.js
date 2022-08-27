@@ -23,11 +23,11 @@ const Nav = (props) => {
 
         <ul className={ulClassnames}>
 
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/nosotros">Nosotros</Link></li>
+            <li className="lista-menu"><Link to="/">Home</Link></li>
+            <li className="lista-menu"><Link to="/nosotros">Nosotros</Link></li>
             {/* <li><Link to="/blog">Blog</Link></li> */}
-            <li><Link to="/novedades">Novedades</Link></li>
-            <li><Link to="/contacto">Contacto</Link></li>
+            <li className="lista-menu"><Link to="/novedades">Novedades</Link></li>
+            <li className="lista-menu"><Link to="/contacto">Contacto</Link></li>
         </ul>
     </nav>
 

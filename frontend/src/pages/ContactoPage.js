@@ -49,7 +49,7 @@ const ContactoPage = (props) => {
             <main className="contacto-form">
 
             <div className="datos">
-                <img src='img/computadora.png' className='imagen-binoculares'></img>
+                <img src='img/computadora.png' className='imagen-binoculares' alt='envianos un correo'></img>
                     {/* <h2 style={{ color: '#fff', fontSize: '30px', fontWeight: '100' }}>Otras vias de comunicacion</h2>
 
 

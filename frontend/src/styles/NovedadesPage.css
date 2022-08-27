@@ -23,7 +23,14 @@
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-bottom: #771921 3px solid;
+    cursor: pointer;
 }
+
+.novedades:hover {
+    background-color: rgb(233, 233, 233);
+    
+}
+
 
 .novedades img {
     margin-bottom: 10px;
