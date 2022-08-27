@@ -32,10 +32,10 @@ const NovedadesPage = (props) => {
 
 
     return (
-        <section className='holder'>
+        <aside className='container-nov'>
 
 
-            <h2>Novedades</h2>
+            {/* <h2>Novedades</h2> */}
             {
                 loading ? (
                     <p>Cargando...</p>
@@ -45,7 +45,7 @@ const NovedadesPage = (props) => {
                 )
 
             }
-        </section>
+        </aside>
 
     );
 
