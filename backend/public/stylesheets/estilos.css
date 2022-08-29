@@ -23,13 +23,28 @@ header {
     background-color: #9c2e38;
     padding: 16px 0;
     display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
     
 }
 
-header img {
+header img.logo-header {
     width: 200px;
     height: 200px;
     /* background-color: yellow; */
+}
+
+header img.imagen-header {
+
+    width: 300px;
+    margin-left: 50px;
+    
+
+}
+
+.boton-exit {
+    margin-right: 33px;
+    margin-top: 10px;
 }
 
 
@@ -39,9 +54,8 @@ header img {
     font-size: 50px;
     font-weight: bold;
     color: white;
-    display: inline-block;
-    position: relative;
     bottom:-10px;
+    margin-left: -40px;
    
     /* background-color: #2196f3; */
     
@@ -52,8 +66,13 @@ header img {
 
 
 .holder-header {
-    max-width: 960px;
-    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: -16px;
+
+    /* margin: 0 auto; */
    
 }
 
@@ -447,14 +466,77 @@ div .curso img {
    
    .input:focus, input:valid {
     outline: none;
-    border: 1.5px solid #1a73e8;
+    border: 1.5px solid;
    }
+
+
+
+
+
+
+
+   /* cambiando el login */
+   .container-login{
+   
+    max-width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    background-color: #212121;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 385px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.col p{
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+
+.container-login h2 {
+    margin-bottom: 38px;
+    font-size: 45px;
+    color: white;
+    font-weight: 300;
+}
+
+.container-login img {
+  
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.col {
+    margin-left: 130px;
+
+}
+
+
+ /* cambiando el login */
+
+
+
+
+
+
+
+
+
    
    .input:focus ~ label, input:valid ~ label {
     transform: translateY(-50%) scale(0.8);
     background-color: #212121;
     padding: 0 .2em;
-    color: #2196f3;
+    color: #9c2e38;
    }
 
 
@@ -572,6 +654,7 @@ div .curso img {
     background-color: #9c2e38;
     padding-right: 20px;
     padding-left: 20px;
+    height: 200px;
 
 }
 
@@ -583,7 +666,7 @@ div .curso img {
     align-items: center;
     
     flex-wrap: wrap ;
-    padding-top: 20px;
+    padding-top: 40px;
    
      margin-bottom: 20px; 
      border-bottom: 2px solid #fff;
@@ -661,16 +744,74 @@ div .curso img {
 /* fin footer */
 
 
-/* inicio footer */
 
-/* footer {
-    background-color: #ccc;
-    clear: both;
-    color: #333;
-    text-align: center;
-    padding: 50px 0;
-    margin-top: 20px;
+
+/* cambiando las novedades del admin */
+
+
+.contenedor-mayor{
+    display: flex;
+    justify-content: center;
+}
+
+.container-admin{
+
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+    border-top: #2b2525 3px solid;
+}
+
+.titulos-novedades {
+    display: flex;
+    gap: 440px;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
    
-} */
 
-/* fin del footer */
+}
+
+.nueva-novedad a{
+    background-color: #9c2e38;
+    border: none;
+}
+
+.nueva-novedad a:hover{
+    background-color: #771921;
+}
+
+.tabla-contenedor {
+    padding: 10px;
+}
+
+
+.text-centrado {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom-width: 0px;
+    border: none;
+    background-color: none;
+}
+
+
+.text-centrado a {
+    background-color: #212529;
+    border: none;
+
+}
+
+.text-centrado a:hover {
+    background-color: #9c2e38;
+
+}
+
+
+
+
+/* cambiando las novedades del admin */

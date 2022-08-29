@@ -68,7 +68,6 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `usuario`, `password`) VALUES
 (1, 'mati', '81dc9bdb52d04dc20036dbd8313ed055'),
-(2, 'fran', '81dc9bdb52d04dc20036dbd8313ed055');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
